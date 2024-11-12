@@ -106,7 +106,7 @@ char *mem_name[3] = { "Static", "Heap", "Stack" };
 
 #if MAIN_HAS_NOARGC
 MAIN_RETURN_TYPE
-main(void)
+main_coremark(void)
 {
     int   argc = 0;
     char *argv[1];
